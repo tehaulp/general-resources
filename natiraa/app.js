@@ -11,3 +11,7 @@ document.addEventListener('click', function(event) {
     dropdownMenu.classList.add('hidden');
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  alert('Hello');
+})
